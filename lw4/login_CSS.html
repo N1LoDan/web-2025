@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Вход в соцсеть</title>
+    <link rel="stylesheet" href="./styles/login_style.css">
 </head>
 <body>
     <main>
@@ -15,15 +16,16 @@
             <form>
                 <div>
                     <p>Электропочта</p>
-                    <input type="text" id="email" name="email" size="20" required> 
-                    <p>Введите электронную почту в формате *****@***.**</p>    
+                    <input type="text" id="email" name="email" required>
+                    <p class="instructions">Введите электронную почту в формате *****@***.**</p>
                 </div>
                 <div>
                     <p>Пароль</p>
-                    <input type="password" id="password" name="password" required>
-                    <img src="./login_items/Eye-off.png" alt="Eye-off" height="10">
+                    <div class="input-group">
+                        <input type="password" id="password" name="password" required>
+                        <img src="./login_items/Eye-off.png" alt="Eye-off">
+                    </div>
                 </div>
-                <br>
                 <button type="submit">Продолжить</button>
             </form>
         </div>

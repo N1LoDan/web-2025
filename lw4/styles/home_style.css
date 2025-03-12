@@ -1,0 +1,44 @@
+h2 {
+    color: #222222;
+    font-size: 14px;
+    font-family: "Golos UI", 'Times New Roman', Times, serif;
+}
+form {
+    max-width: 474px;
+    background-color: #fff;
+}
+article p{
+    color: #222222;
+    font-size: 15px;
+    font-family: "Golos UI", 'Times New Roman', Times, serif; 
+}
+article a{
+    text-decoration: none
+}
+.number-of-photos {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Golos UI", 'Times New Roman', Times, serif;
+    background-color: #222222;
+    border-radius: 20px;
+    max-width: 44px;
+    height: 24px;
+}
+.number-of-likes{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Golos UI", 'Times New Roman', Times, serif;
+    background-color: #2222220D;
+    border-radius: 8px;
+    max-width: 68px;
+    height: 30px;
+}
+.avatar{
+    border-radius: 6px;
+}
+.post-time{
+    font-size: 14px;
+    color: #666;
+}
