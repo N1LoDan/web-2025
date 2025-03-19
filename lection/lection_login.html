@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Логин</title>
+    <link rel="stylesheet" href="./styles/lection_login.css" type="text/css">
+    <link rel="stylesheet" href="./styles/lection_login_fonts.css" type="text/css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="login">Войти</h1>
+        <img class="images" src="./login_items/man.png" title="Войти" alt="Войти" />
+        <form class="form">
+            <label class="label" for="email">Электропочта</label>
+            <input id="email" type="text" class="input" name="email" required />
+            <span class="input-info input-error">Введите электронную почту в формате *****@***.**</span>
+            <label class="label" for="password">Пароль</label>
+            <div>
+                <input id="password" type="password" class="input" required />
+                <span></span>
+            </div>
+            <input type="submit" class="button" />
+        </form>
+    </div>
+</body>
+</html>

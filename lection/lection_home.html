@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="stylesheet" href="./styles/home_style.css">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./styles/lection_home_style.css" type="text/css">
+    <link rel="stylesheet" href="./styles/lection_login_fonts.css" type="text/css">
 </head>
 <body>
-    <div>
-        <a href="./home.html"> <img src="./menu_items/home.png" alt="home item" width="24" height="24"></a><br>
-        <a href="./profile.html"> <img src="./menu_items/profile.png" alt="profile item" width="24" height="24"></a><br>
-        <a href="#"> <img src="./menu_items/new_post.png" alt="post item" width="24" height="24"></a>
+    <div class="menu">
+        <div class="menu-icon menu-icon-home"></div>
+        <div class="menu-icon menu-icon-profile"></div>
+        <div class="menu-icon menu-icon-new_post"></div>
     </div>
     <main>
         <form>
             <div>
                 <article>
                     <img src="./profile_items/vanya.png" class="avatar" alt="vanya" width="32" height="32">
-                    <h2><a href="./profile.html">Ваня Денисов</a></h2>
+                    <h2 class="name-of-profile"><a href="./profile.html">Ваня Денисов</a></h2>
                     <a href="#"><img src="./menu_items/edit.png" alt="edit" width="24" height="24"></a><br>
                     <p class="number-of-photos">1/3</p> 
                     <img src="./profile_items/snow.png" alt="Picture" width="474" height="474"><br>
@@ -33,7 +34,7 @@
                 </article>
                 <article>
                     <img src="./home_items/liza.png" class="avatar" alt="liza" width="32" height="32">
-                    <h2><a href="./home_items.html">Лиза Дёмина</a></h2>
+                    <h2 class="name-of-profile"><a href="./home_items.html">Лиза Дёмина</a></h2>
                     <img src="./home_items/spring.png" alt="Picture" width="474" height="474"><br>
                     <p class="number-of-likes"><img src="./menu_items/likes.jpg" alt="post item" width="16" height="18">3</p>
                     <p class="post-time">1 час назад</p>

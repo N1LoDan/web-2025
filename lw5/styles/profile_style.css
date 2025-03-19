@@ -1,27 +1,43 @@
-form img{
+.photo-image {
     max-height: 322px; 
     max-width: 322px;
 }
-.avatar{
-    border-radius: 6px;
+
+.item {
+    height: 24px;
+    width: 24px;
 }
+
+.avatar {
+    border-radius: 6px;
+    width: 123px;
+    height: 123px;
+}
+
+.count-post-icon {
+    width: 16px; 
+    height: 16px;
+}
+
 .number-of-posts {
     color: #222222;
     font-size: 15px;
     text-align: center;
-    font-family: "Golos UI", 'Times New Roman', Times, serif;
+    font-family: "Golos Text", sans-serif;
     background-color: #F2F3F5;
     border-radius: 6px;
     max-width: 101px;
     height: 30px;
 }
+
 .about-me {
     color: #222222;
     font-size: 15px;
     max-width: 361px;
     max-height: 36px;
 }
-h1 {
+
+.name-of-profile {
     color: #222222;
     font-size: 32px;
     max-width: 361px;
